@@ -5,7 +5,7 @@ onedark_yellow="#e5c07b"
 onedark_red="#e06c75"
 onedark_white="#aab2bf"
 onedark_green="#98c379"
-onedark_visual_grey="#3e4452"
+onedark_visual_grey="#2c2f36"
 onedark_comment_grey="#5c6370"
 
 get() {
@@ -58,8 +58,8 @@ setw "window-status-activity-attr" "none"
 
 setw "window-status-separator" ""
 
-set "window-style" "fg=$onedark_comment_grey"
-set "window-active-style" "fg=$onedark_white"
+set "window-style" "fg=$onedark_comment_grey,bg=$onedark_black"
+set "window-active-style" "fg=$onedark_white,bg=$onedark_visual_grey"
 
 set "pane-border-fg" "$onedark_white"
 set "pane-border-bg" "$onedark_black"
